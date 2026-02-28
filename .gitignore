@@ -1,0 +1,26 @@
+cuda-keyring_1.1-1_all.deb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv_linux/
+venv/
+
+# Test and type check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor
+.vscode/
+
+# Outputs and temp files
+*.vtt
+output.vtt
+audio/**/*.vtt
+audio/**/*.*
+*.log
+*.tmp
+*.bak
+*.swp
